@@ -2,18 +2,20 @@
 
 # Create a variable `hometown` that stores the city in which you were born
 
-hometown.city <- Bellevue
-print(hometown.city)
+# Variable declaration
+
+hometown <- "Bellevue"
+print(hometown)
 
 # Assign your name to the variable `my.name`
 
-my.name <- David
-print(my.name)
+myName <- "David"
+print(myName)
 
 # Assign your height (in inches) to a variable `my.height`
 
-height.inches <- 69
-print(height.inches)
+myHeight <- 69
+print(myHeight)
 
 # Create a variable `puppies` equal to the number of puppies you'd like to have
 
@@ -22,19 +24,20 @@ print(puppies)
 
 # Create a variable `puppy.price`, which is how expensive you think a puppy is
 
-puppy.price <- 200
-print(puppy.price)
+puppyPrice <- 200
+print(puppyPrice)
 
 # Create a variable `total.cost` that has the total cost of all of your puppies
 
-total.cost <- puppies * puppy.price
+totalCost <- puppies * puppyPrice
 
 # Create a boolean variable `too.expensive`, set to TRUE if the cost is greater than $1,000
 
-too.expensive <- 1000
+tooExpensive <- 1000
+tooExpensive > totalCost
 
 # Create a variable `max.puppies`, which is the number of puppies you can afford for $1,000.
 
-max.puppies <- too.expensive / puppy.price
-print(max.puppies)
+maxPuppies <- (tooExpensive / puppyPrice)
+print(maxPuppies)
 
