@@ -2,8 +2,6 @@
 
 # Create a variable `hometown` that stores the city in which you were born
 
-# Variable declaration
-
 hometown <- "Bellevue"
 print(hometown)
 
